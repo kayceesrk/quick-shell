@@ -7,6 +7,9 @@ Spawn a shell by creating a tunnel to the container running GitHub Actions workf
 - Select `Spawn a shell` workflow
 - Click on `Run workflow` button
 - Choose Runner
+- Choose Authenticated Access
+  - Checked: Tunnel can be accessed only from the device having SSH access to your GitHub account.
+  - Unchecked: Tunnel can be accessed from any device and also from the browser.
 - Click on `Run workflow` button
 - Check logs for access url
 
