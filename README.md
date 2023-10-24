@@ -13,6 +13,8 @@ Spawn a shell by creating a tunnel to the container running GitHub Actions workf
 - Click on `Run workflow` button
 - Check logs for access url
 
+NOTE: If you see a blank shell, press `q` key.
+
 # Runners
 | Runner | Operating System | Architecture |
 | - | - | - |
