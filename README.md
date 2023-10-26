@@ -16,12 +16,12 @@ Spawn a shell by creating a tunnel to the container running GitHub Actions workf
 NOTE: If you see a blank shell, press `q` key.
 
 # Runners
-| Runner | Operating System | Architecture |
-| - | - | - |
-| ubuntu-22.04 | Ubuntu | x86_64 |
-| ubuntu-20.04 | Ubuntu | x86_64 |
-| macos-13 | MacOS | x86_64 |
-| macos-12 | MacOS | x86_64 |
-| macos-11 | MacOS | x86_64 |
-| windows-2022 | Windows | x86_64 |
-| windows-2019 | Windows | x86_64 |
+| Runner | Operating System | Architecture | Processor (CPU) | Memory (RAM) | Storage (SSD) |
+| - | - | - | - | - | - |
+| ubuntu-22.04 | Ubuntu | x86_64 | 2 | 7 GB | 14 GB |
+| ubuntu-20.04 | Ubuntu | x86_64 | 2 | 7 GB | 14 GB |
+| macos-13 | MacOS | x86_64 | 4 | 14 GB | 14 GB |
+| macos-12 | MacOS | x86_64 | 3 | 14 GB | 14 GB |
+| macos-11 | MacOS | x86_64 | 3 | 14 GB | 14 GB |
+| windows-2022 | Windows | x86_64 | 2 | 7 GB | 14 GB |
+| windows-2019 | Windows | x86_64 | 2 | 7 GB | 14 GB |
