@@ -34,3 +34,6 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' }}
         with:
           limit-access-to-actor: ${{ inputs.authenticate }}
+      - name: Set up MSVC
+        if: ${{ inputs.options == 'windows-latest' }}
+        uses: ilammy/msvc-dev-cmd@v1
