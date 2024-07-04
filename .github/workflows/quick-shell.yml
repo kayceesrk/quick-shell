@@ -31,6 +31,11 @@ jobs:
     steps:
       - name: Set up MSVC
         uses: ilammy/msvc-dev-cmd@v1
+      - name: Install Cygwin
+        uses: cygwin/cygwin-install-action@v3
+        with:
+          packages: make,bash,mingw64-x86_64-gcc-core
+          install-dir: 'D:\cygwin'
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
         if: ${{ github.event_name == 'workflow_dispatch' }}
