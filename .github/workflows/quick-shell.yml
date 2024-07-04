@@ -30,7 +30,6 @@ jobs:
     runs-on: ${{ inputs.runner }}
     steps:
       - name: Set up MSVC
-        if: ${{ inputs.options == 'windows-latest' }}
         uses: ilammy/msvc-dev-cmd@v1
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
